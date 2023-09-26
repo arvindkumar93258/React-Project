@@ -1,0 +1,61 @@
+
+#div2{
+    position: relative;
+    left: -422px;
+    background-color: rgb(248, 207, 73);
+    width: 10%;
+    z-index: -1;
+}
+
+#reviewSection{
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+}
+#reviewSection h5{
+
+}
+#custReviewBox{
+    border: 2px solid red;
+    /* width: 80%;
+    margin: 0px 6%; */
+}
+
+#reviewBox{
+    z-index: 10;
+    display: flex;
+    /* justify-content: space-evenly; */
+    width: 80%;
+    margin: auto;
+    height: 320px;
+
+    background-color: rgb(186, 218, 228);
+
+}
+#imgBox{
+    position: relative;
+    left: -100px;
+    border: 2px solid yellow;
+    display: block;
+    margin: auto;
+}
+#imgBox img{
+    border-radius: 50%;
+   
+
+}
+#textBox{
+    position: relative;
+    left: -100px;
+    border: 2px solid white;
+    display: block;
+    margin: auto 0px;
+    width: 38%;
+    height: 30vh;
+}
+#textBox h4{
+
+    border: 2px solid green;
+    align-items: center;
+    padding: 5px 10px;
+}

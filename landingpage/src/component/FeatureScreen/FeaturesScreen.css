@@ -1,0 +1,61 @@
+.dotDisc{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    display: block;
+}
+.dottedLine{
+    width: 15px;
+    height: 5px;
+    background-color: grey;
+    border-radius: 50%;
+    display: block;
+}
+#smallHeading{
+    width: 30%;
+    font-weight: bold;
+    display: block;
+    margin: 10px 7%;
+    padding: 0px 20px;
+
+}
+#secondPageH1{
+    width: 30%;
+    font-weight: bold;
+    display: block;
+    margin: 10px 7%;
+    padding: 10px 20px;
+}
+.infoItemBox{
+    display: flex;
+    flex-direction: row;
+}
+#infoSectionDiv{
+    display: flex;
+}
+.infoSectionDiv1{
+    display: block;
+    width: 25%;
+    margin: 20px 20px;
+    padding: 10px 20px;
+
+}
+#mainImg{
+ width: 150px;
+ height: 150px;
+ border-radius: 50%;
+ display: block;
+ margin: auto;
+ /* justify-content: center;
+ align-items: center; */
+}
+#heading3{
+text-align: center;
+}
+#paragraph1{
+    display: block;
+    margin: auto;
+    width: 260px;
+    text-align: center;
+}

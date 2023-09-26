@@ -1,0 +1,82 @@
+#backgroundImage {
+    background-image: url("../../img/arvindbg2.jpg");
+    width: 100%;
+    height: 98vh; 
+    background-size: 100% 95%;
+    overflow: hidden hidden;
+    scroll-behavior:smooth;
+    background-repeat: no-repeat;
+    /* object-fit: contain; */
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    background-color: #ffd54d;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 3px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.navbarDiv{
+    display: block;
+}
+
+.navbarDiv ul{
+    display: flex;
+}
+
+.navbarDiv ul li{
+    list-style: none;
+    margin: auto 2px;
+    padding: 2px 10px;
+}
+
+
+/* .navbarDiv{
+    top: 0px;
+} */
+
+/* .navbar ul{
+    list-style: none;
+    display: flex;
+}
+.navbar li {
+    margin: auto;
+    padding: 2px 8px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+} */
+/* logo of website */
+.navHeading img{
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+/* company name besides logo of websites */
+#companyName{
+    font-weight: bolder;
+    font-stretch: expanded;
+    font-style: italic;
+    text-shadow: 1px 1px 2px black;
+}
+
+#homeScreenTextBox1{
+    position: absolute;
+    top: 60px;
+    right: 80px;
+    float: right;
+    width: 320px;
+    text-align: left center;
+}
+.textBox{
+
+}
